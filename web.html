@@ -23,72 +23,34 @@
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
-</head>
 
-<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <!------Logo design css-->
+  <style>
+    .logo1 {
+      width: 100%;
+      height: 120px;
+      position: relative;
+      left: -50px;
+    }
 
 
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target"
-    id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html"><img class="logo1" src="./images/logo.png" alt="Logo"> </a>
-      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
-        data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
-      </button>
 
-      <!------Logo design css-->
-      <style>
-        .logo1 {
-          width: 450px;
-          height: 70px;
-          position: relative;
-          left: -50px;
-        }
+    @media only screen and (max-width: 500px) {
+      .logo1 {
+        width: 240px;
+        height: 50px;
+        left: -10px;
+      }
+    }
 
-        
-
-        @media only screen and (max-width: 500px) {
-          .logo1 {
-            width: 240px;
-            height: 50px;
-            left: -10px;
-          }
-        }
-
-        @media only screen and (max-width: 370px) {
-          .logo1 {
-            width: 220px;
-            height: 40px;
-            left: -10px;
-          }
-        }
-      </style>
-
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav nav ml-auto">
-          <li class="nav-item"><a href="./index.html" class="nav-link"><span>Home</span></a></li>
-          <li class="nav-item"><a href="./index.html#about-section" class="nav-link"><span>About</span></a></li>
-          <li class="nav-item"><a href="./index.html#speakers-section" class="nav-link"><span>Events</span></a></li>
-          <li class="nav-item"><a href="./index.html#schedule-section" class="nav-link"><span>Schedule</span></a></li>
-          <li class="nav-item"><a href="./index.html#contact-section" class="nav-link"><span>Contact</span></a></li>
-          <!-- <li class="nav-item cta"><a href="register.html" class="nav-link">Register</a></li> -->
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <section class="img1 hero-wrap hero-wrap-2" style="background-image: url('images/webback.jpg');">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row no-gutters slider-text align-items-end justify-content-center">
-        <div class="col-md-9 ftco-animate pb-5 text-center">
-          <h1 class="mb-3 bread">NETZKNOTEN</h1>
-          <p class="breadcrumbs"><span class="mr-2">WEB DESIGNING</span></p>
-        </div>
-      </div>
-    </div>
-  </section>
-
+    @media only screen and (max-width: 370px) {
+      .logo1 {
+        width: 220px;
+        height: 40px;
+        left: -10px;
+      }
+    }
+  </style>
   <style>
     .sec2 {
       padding: 40px 40px;
@@ -169,50 +131,6 @@
       }
     }
   </style>
-
-  <section class="sec2">
-    <div class="cont1">
-      <div class="row justify-content-center pb-5">
-        <div class="col-md-12 heading-section heading-section-black text-center ftco-animate">
-          <h2 class="hd1 mb-4">EVENT DETAILS</h2>
-        </div>
-      </div>
-
-     
-
-        <div class="inst1 ftco-animate">
-
-          <div>
-            <h4>ROUND 1:</h4>
-            <p>
-              • The prelims will be conducted through online mode with video proctoring (Zoom).<br>
-              • The participants should have a Laptop/Desktop with webcam and good internet connection.<br>
-              • Quiz link and Zoom link will be sent to the registered participants. Late joining will not be entertained. <br>
-              • Only Individual participation is allowed.<br>
-              • 25 MCQ and Fill in the Blanks Questions (20 minutes)<br>
-              • 1 point for each answer. No negative marking.<br>
-              • Top 10 will be selected for final round. In case of tie, submission time will be considered.<br>
-              
-
-          </div>
-          <div>
-            <h4>FINAL ROUND:</h4>
-            <p>
-              • The participants should have a Laptop/Desktop with webcam and good internet connection.<br>
-              • The participants will have to replicate the design. <br>
-              • The design will be sent in a JPG format. The images used in the design will be provided.<br>
-              • Only HTML and CSS is allowed. Participants using any framework (bootstrap, tailwind) will be disqualified.<br>
-              • The participants are expected to submit the file in .zip format. Submission after given time will not be accepted.<br>
-              • The HTML and CSS will be checked thoroughly to finalize the winners.<br>
-              
-
-
-            </p>
-          </div>
-        </div>
-
-  </section>
-
   <style>
     .sec1 {
       padding: 20px 20px;
@@ -242,6 +160,100 @@
       margin-right: auto;
     }
   </style>
+
+
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target"
+    id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="logo1" src="./images/logo.png" alt="Logo"> </a>
+      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse"
+        data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav nav ml-auto">
+          <li class="nav-item"><a href="./index.html" class="nav-link"><span>Home</span></a></li>
+          <li class="nav-item"><a href="./index.html#about-section" class="nav-link"><span>About</span></a></li>
+          <li class="nav-item"><a href="./index.html#speakers-section" class="nav-link"><span>Events</span></a></li>
+          <li class="nav-item"><a href="./index.html#schedule-section" class="nav-link"><span>Schedule</span></a></li>
+          <li class="nav-item"><a href="./index.html#contact-section" class="nav-link"><span>Contact</span></a></li>
+          <!-- <li class="nav-item cta"><a href="register.html" class="nav-link">Register</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <section class="img1 hero-wrap hero-wrap-2" style="background-image: url('images/webback.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text align-items-end justify-content-center">
+        <div class="col-md-9 ftco-animate pb-5 text-center">
+          <h1 class="mb-3 bread">NETZKNOTEN</h1>
+          <p class="breadcrumbs"><span class="mr-2">WEB DESIGNING</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="sec2">
+    <div class="cont1">
+      <div class="row justify-content-center pb-5">
+        <div class="col-md-12 heading-section heading-section-black text-center ftco-animate">
+          <h2 class="hd1 mb-4">EVENT DETAILS</h2>
+        </div>
+      </div>
+
+
+
+      <div class="inst1 ftco-animate">
+
+        <div>
+          <h4>ROUND 1:</h4>
+          <p>
+            • The prelims will be conducted through online mode with video proctoring (Zoom).<br>
+            • The participants should have a Laptop/Desktop with webcam and good internet connection.<br>
+            • Quiz link and Zoom link will be sent to the registered participants. Late joining will not be entertained.
+            <br>
+            • Frequent and/or extended disconnects will result in disqualification.<br>
+            • Only Individual participation is allowed.<br>
+            • 25 MCQ and Fill in the Blanks Questions (20 minutes)<br>
+            • 1 point for each answer. No negative marking.<br>
+            • Top 10 will be selected for final round. In case of tie, submission time will be considered.<br>
+
+
+        </div>
+        <div>
+          <h4>FINAL ROUND:</h4>
+          <p>
+            • The participants should have a Laptop/Desktop with webcam and good internet connection.<br>
+            • Frequent and/or extended disconnects will result in disqualification.<br>
+            • The participants will have to create a website using the given resources only.<br>
+            • The required images/resources will be provided.<br>
+            • Only HTML and CSS is allowed. Participants using any framework, Libraries or
+            CSS pre-processors will be disqualified.<br>
+
+            • The participants are expected to submit the file in .zip format. The submission
+            file must consist of screenshots of the final website. Submission after the
+            given time will not be accepted.<br>
+            • The HTML and CSS files will be checked thoroughly to finalize the winners.
+            • Plagiarism will lead to disqualification.<br>
+
+
+          </p>
+        </div>
+      </div>
+
+  </section>
+
+
   <section class="sec1">
     <div class="cont1">
       <div class="row justify-content-center pb-5">
@@ -254,16 +266,20 @@
         <div>
           <h4>Event Staff Coordinator</h4>
           <p>• Prof. Ayshwarya B<br>
-            •  Dr. Hubert Santhan<br>
-            •   Dr. Naveeth babu<br>
+            • Dr. Hubert Santhan<br>
+            • Dr. Naveeth babu<br>
 
           </p>
         </div>
 
         <div>
           <h4>Event Student Coordinator</h4>
-          <p>• Om Prakash N - 6362565490            <br>
-            • MUHAMMED SAHAL SM - 9108454347
+          <p>•Mr. Rohit Raj-
+            70048 06512
+            <br>
+            • Mr. Mohit Agarwal-
+            73639 94499
+
 
 
           </p>
@@ -341,8 +357,7 @@
           <p>
             <!-- Link back to  can't be removed. Template is licensed under CC BY 3.0. -->
             Copyright &copy;
-            <script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i
-              class="icon-heart color-danger" aria-hidden="true"></i> by <a href="#" target="_blank">TechTeam</a>
+            <script>document.write(new Date().getFullYear());</script> All rights reserved 
             <!-- Link back to  can't be removed. Template is licensed under CC BY 3.0. -->
           </p>
         </div>
